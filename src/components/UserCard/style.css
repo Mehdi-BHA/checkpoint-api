@@ -1,0 +1,45 @@
+.user-card{
+    width:200px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(20deg,rgba(255, 0, 0, 0.412),rgba(36, 36, 250, 0.528));
+    border-radius: 5px;
+}
+
+.avatar-container{
+    background-color: rgb(7, 55, 160);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:30px auto;
+    margin-top: 10px;
+}
+
+.avatar{
+    position: relative;
+    width: 140px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.infos-btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width:100px;
+    height:40px;
+    margin: 20px auto;
+    cursor: pointer;
+    background-color: rgba(237, 237, 237, 0.761);
+    border: none;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.infos-btn:hover{
+    background-color: rgba(255, 255, 255, 0.842);
+}
